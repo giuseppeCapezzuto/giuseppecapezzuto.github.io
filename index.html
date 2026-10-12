@@ -2,318 +2,39 @@
 <html lang="en"><head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Privacy Policy — Drop &amp; Evolve</title>
+<title>GC Apps</title>
 <style>
   :root { color-scheme: light dark; }
-  body { margin:0 auto; max-width:44rem; padding:2rem 1.25rem 5rem;
+  body { margin:0 auto; max-width:34rem; padding:4rem 1.25rem;
          font:16px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
          color:#232323; background:#fdfcf9; }
-  h1 { font-size:1.9rem; line-height:1.2; margin:0 0 .4rem; }
-  h2 { font-size:1.3rem; margin:2.4rem 0 .6rem; }
-  h3 { font-size:1.05rem; margin:1.8rem 0 .4rem; }
-  table { border-collapse:collapse; width:100%; margin:1rem 0; display:block;
-           overflow-x:auto; }
-  th,td { border:1px solid #d8d2c4; padding:.5rem .6rem; text-align:left;
-           vertical-align:top; font-size:.94rem; }
-  th { background:#f2ede1; }
-  code { background:#f2ede1; padding:.1rem .3rem; border-radius:3px;
-          font-size:.9em; }
-  hr { border:0; border-top:1px solid #ddd6c7; margin:2.5rem 0; }
+  h1 { font-size:1.8rem; margin:0 0 .25rem; }
+  .sub { color:#7a7266; margin:0 0 2.5rem; }
+  h2 { font-size:1.15rem; margin:2.5rem 0 .4rem; }
   a { color:#9a6b1f; }
+  ul { padding-left:1.1rem; }
+  footer { margin-top:4rem; font-size:.9rem; color:#7a7266; }
   @media (prefers-color-scheme: dark) {
     body { color:#e8e4dc; background:#1b1a18; }
-    th { background:#2a2825; } code { background:#2a2825; }
-    th,td { border-color:#3a3733; } hr { border-color:#3a3733; }
+    .sub, footer { color:#9a9288; }
     a { color:#e0b055; }
   }
 </style></head><body>
-<h1 id="privacy-policy-drop-evolve">Privacy Policy — Drop &amp; Evolve</h1>
-<p><strong>Effective date:</strong> 2026-09-06
-<strong>Last updated:</strong> 2026-10-12</p>
-<p>Drop &amp; Evolve ("the app", "the game") is developed by <strong>GC Apps</strong> ("we", "us").</p>
-<p>Contact for any privacy question or request: <strong>gcapplicationdev@gmail.com</strong></p>
-<p>This policy explains what the app collects, why, and what you can do about it.
-It is written to be read, not to be survived.</p>
-<hr />
-<h2 id="the-short-version">The short version</h2>
+<h1>GC Apps</h1>
+<p class="sub">Small games for Android.</p>
+
+<h2>Drop &amp; Evolve</h2>
+<p>A creature-collecting merge puzzle. Drop a creature into the jar; two of the
+same kind fuse into the next one up an eleven-step chain, from a speckled egg to
+a full-grown horse. Everything you make is recorded in a codex that survives
+every run.</p>
+<p>No ad ever interrupts a run. Free, with no purchases and no accounts.</p>
 <ul>
-<li>The app has <strong>no accounts of its own and no real-money purchases.</strong> We never
-  ask for your name, email address, phone number, contacts, photos or precise
-  location.</li>
-<li><strong>Your progress is backed up to your own Google account, never to us.</strong> If
-  you use Google Play Games, your collection, coins and levels are saved there,
-  so a new phone or a reinstall picks them up. Android's own backup may keep a
-  copy of the save file in your Google account too. We never receive either.</li>
-<li><strong>Analytics is off until you switch it on.</strong> Nothing is sent to us unless you
-  explicitly opt in, and you can opt back out at any time in Settings.</li>
-<li><strong>No ad ever interrupts play.</strong> Video ads are rewarded videos you tap to
-  start; the only other ad is a small banner in a strip at the bottom of the
-  screen.</li>
+  <li><a href="https://giuseppecapezzuto.github.io/dropevolve-legal/">Privacy policy</a></li>
 </ul>
-<hr />
-<h2 id="what-the-app-collects">What the app collects</h2>
-<h3 id="1-gameplay-analytics-only-if-you-opt-in">1. Gameplay analytics — only if you opt in</h3>
-<p>Analytics collection is <strong>disabled by default</strong>. It is enabled only if you
-explicitly agree, and you can disable it again at any time from the in-app
-Settings screen. If you decline, or if you never answer, nothing in this
-section is collected. The app asks you once, after you first complete a level,
-with two equal choices; if you decline, it does not ask again.</p>
-<p>If you opt in, the app uses <strong>Google Firebase Analytics</strong> to record these eleven
-events, and nothing else:</p>
-<table>
-<thead>
-<tr>
-<th>Event</th>
-<th>What it records</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>level_start</code></td>
-<td>Which level was started</td>
-</tr>
-<tr>
-<td><code>level_complete</code></td>
-<td>Which level was completed, the star rating, and how many of its drops were used</td>
-</tr>
-<tr>
-<td><code>level_fail</code></td>
-<td>Which level was failed, the star rating, how many of its drops were used, and whether it ended on the drop limit, a full jar or the clock</td>
-</tr>
-<tr>
-<td><code>creature_discovered</code></td>
-<td>Which creature tier and variant was discovered</td>
-</tr>
-<tr>
-<td><code>endless_game_over</code></td>
-<td>The run's score and your best score</td>
-</tr>
-<tr>
-<td><code>rewarded_shown</code></td>
-<td>That a rewarded ad was displayed, and which reward</td>
-</tr>
-<tr>
-<td><code>rewarded_completed</code></td>
-<td>That a rewarded ad was watched to the end</td>
-</tr>
-<tr>
-<td><code>rewarded_failed</code></td>
-<td>That a rewarded ad could not be shown</td>
-</tr>
-<tr>
-<td><code>rescue_used</code></td>
-<td>That a lost level or Endless run was rescued, and whether with in-game coins or a rewarded ad</td>
-</tr>
-<tr>
-<td><code>shop_purchase</code></td>
-<td>Which item was bought in the in-game shop, and its price in in-game coins (never real money)</td>
-</tr>
-<tr>
-<td><code>day_active</code></td>
-<td>That the game was opened on a given day, at most once a day, how many days have passed since it was first opened on this device, and how many days in a row farm orders have been delivered</td>
-</tr>
-</tbody>
-</table>
-<p>These payloads contain only numbers and short internal labels. They contain no
-personal information and nothing you have typed.</p>
-<p>Alongside these, Firebase Analytics automatically collects a standard technical
-set: a randomly generated <strong>app instance identifier</strong> (a pseudonymous ID for the
-installation, not for you), your device model, operating system version, app
-version, device language, and an <strong>approximate region derived from your IP
-address</strong> — country level, not a location.</p>
-<p>We use this to understand which levels are too hard, which are too easy, and
-whether players reach the end of the creature chain. It is never used to
-identify you and is never sold.</p>
-<h3 id="2-advertising-google-admob">2. Advertising — Google AdMob</h3>
-<p>The app shows two kinds of ad. <strong>Rewarded videos</strong>, which you always start
-yourself by tapping an offer, and a <strong>banner</strong> in a fixed strip at the bottom
-of the screen. No ad ever interrupts a run: there are no pop-up or full-screen
-ads you did not choose.</p>
-<p>To serve these, <strong>Google AdMob</strong> processes your device's <strong>advertising ID</strong>,
-your <strong>IP address</strong>, and your interactions with the ad. Whether you see
-<strong>personalised</strong> or <strong>non-personalised</strong> ads depends on the choice you make in
-the consent form the app shows you.</p>
-<p>Non-personalised ads still require the advertising ID for frequency capping and
-fraud prevention, but are not selected based on a profile of your interests.</p>
-<p>You can reset or delete your advertising ID at any time in your device's
-<strong>Settings → Privacy → Ads</strong>.</p>
-<h3 id="3-your-game-progress-on-your-phone-and-in-your-google-account">3. Your game progress — on your phone and in your Google account</h3>
-<p>The following is written to a save file inside the app's private storage on your
-phone:</p>
-<ul>
-<li>Which creatures you have discovered, and their variants</li>
-<li>Your level progress, star ratings and best scores</li>
-<li>Coins, purchased cosmetics and boosters</li>
-<li>Your settings: language, haptics, sound, music, and your analytics choice</li>
-</ul>
-<p><strong>It is never sent to us.</strong> Two Google services can keep a copy <strong>in your own
-Google account</strong>, so your progress survives a new phone or a reinstall:</p>
-<ul>
-<li><strong>Google Play Games.</strong> If you are signed in to Play Games — most Android
-  phones sign you in automatically, and you can also sign in from the game's
-  Settings — the game saves your discoveries, levels, best score, coins,
-  cosmetics and boosters there (never your settings). To sign you in, Play Games
-  shares your Play Games profile with the game: your player ID, gamer name and
-  avatar. Google also collects its own diagnostics to keep the service working.
-  If you do not sign in, nothing is saved to Play Games and the game works
-  exactly the same.</li>
-<li><strong>Android backup.</strong> If backup is turned on for your phone, Android copies the
-  save file (and only the save file) to your Google account and restores it when
-  you reinstall. This follows your phone's backup setting, not ours.</li>
-</ul>
-<h3 id="4-what-we-never-collect">4. What we never collect</h3>
-<p>No name, email address, phone number, postal address, contacts, calendar,
-photos, camera, microphone, files, precise or GPS location, health data,
-payment information, or anything you type. The app has no chat, no user-generated
-content, no social features and no in-app purchases.</p>
-<hr />
-<h2 id="permissions-the-app-requests">Permissions the app requests</h2>
-<table>
-<thead>
-<tr>
-<th>Permission</th>
-<th>Why</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td><code>INTERNET</code>, <code>ACCESS_NETWORK_STATE</code></td>
-<td>To load ads and, if you opted in, send analytics</td>
-</tr>
-<tr>
-<td><code>VIBRATE</code></td>
-<td>Haptic feedback on merges and button presses</td>
-</tr>
-<tr>
-<td><code>AD_ID</code></td>
-<td>Required by Google AdMob to serve ads</td>
-</tr>
-<tr>
-<td><code>ACCESS_ADSERVICES_TOPICS</code>, <code>ACCESS_ADSERVICES_AD_ID</code>, <code>ACCESS_ADSERVICES_ATTRIBUTION</code></td>
-<td>Added by the Google Mobile Ads SDK for Android's Privacy Sandbox</td>
-</tr>
-<tr>
-<td><code>READ_BASIC_PHONE_STATE</code>, <code>WAKE_LOCK</code>, <code>FOREGROUND_SERVICE</code>, <code>BIND_GET_INSTALL_REFERRER_SERVICE</code></td>
-<td>Added automatically by Google Play services and the ads SDK. The last is Play's install-referrer service, used for install attribution.</td>
-</tr>
-</tbody>
-</table>
-<p>The last two rows are declared by Google's own libraries rather than by us. We
-list them because they appear in the app's manifest and you are entitled to know
-why they are there.</p>
-<hr />
-<h2 id="legal-basis-and-your-rights-under-gdpr">Legal basis, and your rights under GDPR</h2>
-<p>GC Apps is established in Belgium, so the EU General Data Protection
-Regulation applies to this app everywhere it is distributed.</p>
-<p><strong>Legal basis.</strong> Analytics and personalised advertising are processed on the
-basis of your <strong>consent</strong> (GDPR Art. 6(1)(a)), which you give through the
-in-app consent form and the Settings screen, and which you may withdraw at any
-time without affecting the lawfulness of processing before withdrawal. Saving
-your progress to Google Play Games is processed to provide the cloud save you
-use by signing in (Art. 6(1)(b)); you can stop it by signing out of Play Games.</p>
-<p><strong>Your rights.</strong> You have the right to request access to, correction of,
-erasure of, or restriction of processing of your personal data; to object to
-processing; and to data portability. Because the app holds no account of its
-own and we receive no identifier that points to you as a person, we will usually need the advertising
-ID or app instance ID from your device to act on such a request. Write to
-<strong>gcapplicationdev@gmail.com</strong> and we will respond within one month.</p>
-<p><strong>Withdrawing consent.</strong> Open <strong>Settings</strong> in the app. The analytics switch
-turns collection off immediately. The privacy options row reopens the ads
-consent form.</p>
-<p><strong>Complaints.</strong> You may lodge a complaint with the Belgian Data Protection
-Authority — <em>Gegevensbeschermingsautoriteit / Autorité de protection des
-données</em>, Rue de la Presse 35, 1000 Brussels — or with the supervisory
-authority of the EU country where you live.</p>
-<hr />
-<h2 id="deleting-your-data">Deleting your data</h2>
-<p>Drop &amp; Evolve has no account of its own, so there is nothing to close. To have
-your data deleted:</p>
-<ol>
-<li><strong>Delete what is on your phone.</strong> Uninstall the app, or open Android
-   <strong>Settings → Apps → Drop &amp; Evolve → Storage → Clear storage</strong>. This erases
-   your progress, collection, coins and settings on the phone; we never had a
-   copy.</li>
-<li><strong>Delete the copies in your Google account.</strong> Your Play Games save is
-   deleted from <strong>Google Play Games → Settings → Delete Play Games account &amp;
-   data</strong>, where each game's data can be deleted on its own. Android backups
-   are managed, and can be deleted, in your Google account's backup settings.
-   Delete both before reinstalling, or the game will restore your progress.</li>
-<li><strong>Stop anything new being collected.</strong> In the app, open <strong>Settings</strong>, turn
-   the analytics switch off, and use the privacy options row to withdraw ads
-   consent.</li>
-<li><strong>Delete your advertising ID.</strong> On Android, open <strong>Settings → Google → Ads</strong>
-   (on some phones <strong>Settings → Privacy → Ads</strong>) and choose <strong>Delete
-   advertising ID</strong>. Advertising data Google already holds is then no longer
-   linked to your phone.</li>
-<li><strong>Ask us to erase analytics data.</strong> Email <strong>gcapplicationdev@gmail.com</strong> with
-   the subject "Delete my data — Drop &amp; Evolve". If you never switched
-   analytics on, there is none. We reply within one month.</li>
-</ol>
-<p><strong>What is deleted, and what is kept.</strong> Your save file is deleted in step 1,
-and its copies in your Google account in step 2.
-Analytics data is deleted on request where we can link it to your device, and
-in every case automatically at the end of Firebase's retention window.
-Advertising data is held by Google, not by us, and is kept under Google's own
-retention policy (https://policies.google.com/technologies/retention). We keep
-nothing else.</p>
-<hr />
-<h2 id="who-else-processes-this-data">Who else processes this data</h2>
-<table>
-<thead>
-<tr>
-<th>Processor</th>
-<th>Purpose</th>
-<th>Their policy</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Google Firebase Analytics</td>
-<td>Gameplay analytics, only if you opted in</td>
-<td>https://firebase.google.com/support/privacy</td>
-</tr>
-<tr>
-<td>Google AdMob</td>
-<td>Serving rewarded video and banner ads</td>
-<td>https://policies.google.com/technologies/ads</td>
-</tr>
-<tr>
-<td>Google Play</td>
-<td>App distribution</td>
-<td>https://policies.google.com/privacy</td>
-</tr>
-<tr>
-<td>Google Play Games services</td>
-<td>Sign-in and saving your progress, only if you use Play Games</td>
-<td>https://policies.google.com/privacy</td>
-</tr>
-<tr>
-<td>Android backup (Google)</td>
-<td>Backing up the save file, only if backup is on for your phone</td>
-<td>https://policies.google.com/privacy</td>
-</tr>
-</tbody>
-</table>
-<p>Data processed by these services may be transferred outside the European
-Economic Area. Google relies on the EU Standard Contractual Clauses and, for the
-United States, the EU–US Data Privacy Framework for such transfers.</p>
-<h2 id="how-long-it-is-kept">How long it is kept</h2>
-<p>Analytics data is retained by Firebase according to the project's configured
-retention window and is then deleted automatically. Advertising data is retained
-by Google under its own advertising policies. Data stored on your device is kept
-until you delete it in-app or uninstall the app. Copies of your progress in
-your Google account are kept until you delete them (see <em>Deleting your data</em>).</p>
-<hr />
-<h2 id="children">Children</h2>
-<p>Drop &amp; Evolve is intended for players aged <strong>13 and over</strong>. It is not directed
-to children, it is not enrolled in Google Play's Families programme, and we do
-not knowingly collect data from children under 13. If you believe a child has
-provided us with data, contact <strong>gcapplicationdev@gmail.com</strong> and we will delete
-it.</p>
-<h2 id="changes-to-this-policy">Changes to this policy</h2>
-<p>If this policy changes materially we will update the "Last updated" date above
-and, where the change affects what is collected, ask for your consent again
-inside the app. The current version always lives at this URL.</p>
-<h2 id="contact">Contact</h2>
-<p><strong>gcapplicationdev@gmail.com</strong></p>
+
+<h2>Contact</h2>
+<p><a href="mailto:gcapplicationdev@gmail.com">gcapplicationdev@gmail.com</a></p>
+
+<footer>© GC Apps</footer>
 </body></html>
